@@ -4,6 +4,7 @@ open System
 
 open TestDay
 open Day1
+open Day2
 
 let doDay x = 
     match x with
@@ -11,6 +12,8 @@ let doDay x =
     | ("test", "gold" )-> testDayGold
     | ("1", "silver" ) -> day1Silver
     | ("1", "gold" ) -> day1Gold
+    | ("2", "silver" ) -> day2Silver
+    | ("2", "gold" ) -> day2Gold
     | _ -> "No such day is implemented!"
 
 [<EntryPoint>]
