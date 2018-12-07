@@ -9,6 +9,7 @@ open Day3
 open Day4
 open Day5
 open Day6
+open Day7
 
 let doDay x = 
     match x with
@@ -26,6 +27,8 @@ let doDay x =
     | ("5", "gold" ) -> day5Gold
     | ("6", "silver" ) -> day6Silver
     | ("6", "gold" ) -> day6Gold
+    | ("7", "silver" ) -> day7Silver
+    | ("7", "gold" ) -> day7Gold
     | _ -> "No such day is implemented!"
 
 [<EntryPoint>]
